@@ -1,7 +1,13 @@
+<style>
+  .collapse li {
+    text-align: center;
+    font-size: medium;
+  }
+</style>
 <!-- NAVBAR START -->
 <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"
+    <a class="navbar-brand" href="index.html" onclick="removeClass()"
       ><svg
         xmlns="http://www.w3.org/2000/svg"
         height="1em"
@@ -26,13 +32,31 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" href="services.html" id="services" onclick="active('services')">SERVICES</a>
+          <a
+            class="nav-link active"
+            href="services.html"
+            id="services"
+            onclick="checkURL()"
+            >SERVICES</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pricing.html" id="pricing" onclick="active('pricing')">PRICING</a>
+          <a
+            class="nav-link active"
+            href="pricing.html"
+            id="pricing"
+            onclick="checkURL()"
+            >PRICING</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html" id="contact" onclick="active('contact')">CONTACT</a>
+          <a
+            class="nav-link active"
+            href="contact.html"
+            id="contact"
+            onclick="checkURL()"
+            >CONTACT</a
+          >
         </li>
       </ul>
     </div>
